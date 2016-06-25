@@ -5,8 +5,8 @@ real tau, t, pi, omega, theta, theta2, alpha, pe, ke, m, r, minertia, g, temp
 integer i, n
 
 g = 9.8
-m = 10.1
-r = 10.1
+m = 1.0
+r = 1.0
 minertia = m*r**2
 
 pi = atan(1.0) * 4.0
@@ -14,7 +14,7 @@ n = 10000
 tau = (2.0*pi) / float(n)
 t =0.0
 
-theta = ((90)*pi)/180
+theta = ((179)*pi)/180
 omega = 0.0
 alpha = 0.0
 
